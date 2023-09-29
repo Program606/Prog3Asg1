@@ -60,12 +60,12 @@ public class Avenger implements Comparable<Avenger>{
 	}
 	
 	//STILL TESTING
-	public String toString() {
-		return getHeroAlias() + " aka " + getHeroName() + 
-				" performed by " + getPerformer() + "mentioned "
-				+ "(n: " + getNameFreq() + " a: " + getAliasFreq()
-				+ "p: " + getPerformerFreq()+" )" + "time(s)";
-		
-	}
+//	public String toString() {
+//		return getHeroAlias() + " aka " + getHeroName() + 
+//				" performed by " + getPerformer() + "mentioned "
+//				+ "(n: " + getNameFreq() + " a: " + getAliasFreq()
+//				+ "p: " + getPerformerFreq()+" )" + "time(s)";
+//		
+//	}
 	
 }
