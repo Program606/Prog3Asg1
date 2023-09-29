@@ -1,15 +1,30 @@
-package src;
+package application;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class A1 {
 	
-	Scanner sc = new Scanner(System.in);
+	// idk if this stuff goes into the main method but we'll find out -kaydence
+	
+//	Scanner sc = new Scanner(System.in);
 	ArrayList<Avenger> avengerList = new ArrayList<Avenger>();
 	ArrayList<Avenger> cleanAvengerList = new ArrayList<Avenger>();
-	public void run() {
+	
+	//main method 
+	public static void main(String[] args) {
 		
+		A1 a1  = new A1();
+		a1.run();
+		
+	}
+	
+	public void run() {
+		//creates a scanner object per request
+		Scanner sc = new Scanner(System.in);
+		System.out.println("A1.run() is running!");
+		System.out.println(avengerList + "Avenger list!");
+
 	}
 	
 	public void read() {

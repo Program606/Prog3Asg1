@@ -1,4 +1,4 @@
-package src;
+package application;
 
 public class Avenger implements Comparable<Avenger>{
 	private String heroAlias;
