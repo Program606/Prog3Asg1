@@ -6,6 +6,7 @@ public class Avenger implements Comparable<Avenger>{
 	private String performer;
 	private int nameFreq;
 	private int aliasFreq;
+	private int performerFreq;
 	
 	public int getAliasFreq() {
 		return aliasFreq;
@@ -13,9 +14,6 @@ public class Avenger implements Comparable<Avenger>{
 	public void setAliasFreq(int aliasFreq) {
 		this.aliasFreq = aliasFreq;
 	}
-
-	private int performerFreq;
-	
 	public String getHeroAlias() {
 		return heroAlias;
 	}

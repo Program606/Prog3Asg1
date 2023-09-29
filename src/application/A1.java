@@ -5,9 +5,8 @@ import java.util.Scanner;
 
 public class A1 {
 	
-	// idk if this stuff goes into the main method but we'll find out -kaydence
+	//decalre all vars up here pls just not scanner ty :) -kaydence
 	
-//	Scanner sc = new Scanner(System.in);
 	ArrayList<Avenger> avengerList = new ArrayList<Avenger>();
 	ArrayList<Avenger> cleanAvengerList = new ArrayList<Avenger>();
 	
@@ -21,9 +20,9 @@ public class A1 {
 	
 	public void run() {
 		//creates a scanner object per request
-		Scanner sc = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		System.out.println("A1.run() is running!");
-		System.out.println(avengerList + "Avenger list!");
+		
 
 	}
 	
