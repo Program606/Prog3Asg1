@@ -84,7 +84,8 @@ public class A1 {
 			
 			for(int i=0; i < tokens.length;i++) {
 				//Create a method right here that checks if name is correctly spelled/ no errors
-		
+				
+				totalWordCount+=1;
 				allWordsInput.add(tokens[i]);
 			}
 //			System.out.println(allWordsInput);
@@ -102,7 +103,7 @@ public class A1 {
 					}
 				}
 			}
-			break;
+//			break;
 //			line = input.nextLine();
 		}
 		input.close();
