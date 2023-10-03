@@ -8,6 +8,11 @@ public class Avenger implements Comparable<Avenger>{
 	private int aliasFreq;
 	private int performerFreq;
 	
+	Avenger(String heroAlias, String heroName, String performer){
+		this.heroAlias = heroAlias;
+		this.heroName = heroName;
+		this.performer = performer;
+	}
 	public int getAliasFreq() {
 		return aliasFreq;
 	}
@@ -59,13 +64,19 @@ public class Avenger implements Comparable<Avenger>{
 		
 	}
 	
-	//STILL TESTING
+	//toString for final submission
+	public String toString() {
+		return getHeroAlias() + " aka " + getHeroName() + 
+				" performed by " + getPerformer() + " mentioned "
+				+ "(n: " + getNameFreq() + " a: " + getAliasFreq()
+				+ "p: " + getPerformerFreq()+" )" + "time(s)";
+		
+	}
+	//toString to test
 //	public String toString() {
-//		return getHeroAlias() + " aka " + getHeroName() + 
-//				" performed by " + getPerformer() + "mentioned "
-//				+ "(n: " + getNameFreq() + " a: " + getAliasFreq()
-//				+ "p: " + getPerformerFreq()+" )" + "time(s)";
-//		
+//		return getHeroAlias() + " " + getHeroName() + 
+//				" " + getPerformer();
+		
 //	}
 	
 }
