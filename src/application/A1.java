@@ -28,10 +28,10 @@ public class A1 {
 		loadData(avengerRoster, avengersArrayList);
 		readInput(avengersArrayList);
 		
-//		for(Avenger o: avengersArrayList) {
-//			System.out.println(o);
-//		}
-//		printResults();
+		for(Avenger o: avengersArrayList) {
+			System.out.println(o);
+		}
+		printResults();
 		System.out.println("A1.run() is running!");
 		
 
@@ -102,11 +102,9 @@ public class A1 {
 					}
 				}
 			}
-			
-			line = input.nextLine();
-			System.out.println(line);
+			break;
+//			line = input.nextLine();
 		}
-		//NOT REACHING HERE, stuck in input pergatory!!!
 		input.close();
 		System.out.println("Reached The bottom");
 	}
